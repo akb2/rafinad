@@ -1,0 +1,23 @@
+@use "sass:list";
+
+$sizes: 100px 64px 40px 25px 16px;
+
+:host {
+  @for $i from 1 through 5 {
+    $fontSize: list.nth($sizes, $i);
+
+    h#{$i} {
+      font-size: $fontSize;
+      line-height: $fontSize * 1.4;
+    }
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    color: #000;
+    margin: 0;
+  }
+}

@@ -1,0 +1,11 @@
+.section {
+  display: block;
+
+  &[background="white"] {
+    background-color: #fafafa;
+  }
+
+  &[background="light-gray"] {
+    background-color: #e7e7e7;
+  }
+}
