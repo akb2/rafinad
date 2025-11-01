@@ -1,0 +1,29 @@
+button {
+  line-height: 28px;
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: 0.025em;
+  padding: 15px 40px;
+  border-radius: 30px;
+  outline: none;
+  background-color: #2265ff;
+  border: 1px solid #2265ff;
+  color: white;
+  cursor: pointer;
+  transition:
+    background-color 0.3s,
+    border-color 0.3s,
+    color 0.3s;
+
+  &:hover {
+    background-color: white;
+    border-color: black;
+    color: black;
+  }
+
+  &:active {
+    background-color: black;
+    border-color: black;
+    color: white;
+  }
+}

@@ -1,4 +1,4 @@
-import { Component } from "@akb2/layouts-generator/core";
+import { Component, Define } from "@akb2/layouts-generator/core";
 
 @Component({
   selector: "app-button",
@@ -6,4 +6,5 @@ import { Component } from "@akb2/layouts-generator/core";
   styleSrc: "./button.component.scss"
 })
 export class ButtonComponent {
+  @Define() label = "Кликни меня";
 }
